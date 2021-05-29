@@ -1,0 +1,40 @@
+#sotfwares utilizados:
+-Visual Studio C++
+-Pycharm
+-Python
+-Visual Studio Code
+
+
+#bibliotecas necesárias
+-NumPy						-> pip install numpy
+-OpenCV						-> pip install opencv-contrib-python
+-dlib (é necessário ter Visual Studio C++)	-> pip install dlib
+-imutils					-> pip install imutils 	
+
+recomendado fazer 'import' após a instalação
+
+---------------------------------------
+
+Primeiro passo é:
+
+Colocar os videos em formato .mp4 na diretoria /people-counting-opencv/videos
+
+
+Segundo passo é abrir a aplicação people_counter.py:
+
+Modificar: a linha 294 ou 297 com a data desejada
+	   a linha 300 com o user_id desejado 
+
+
+
+Terceiro passo no people_counter.py:
+
+Escrever na linha de comando, com o input "o nome do ficheiro do video" e o output "o nome do resultado do video"
+
+exemplo:
+-python people_counter.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt --model mobilenet_ssd/MobileNetSSD_deploy.caffemodel --input videos/example_01.mp4 --output output/output_01.avi
+
+
+|------------------------|
+|  CopyRights PLCOUNT ®  |
+|------------------------|
