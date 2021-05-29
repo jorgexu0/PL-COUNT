@@ -1,0 +1,25 @@
+Obrigatorio ter na base dados para fazer conexão com django:
+
+        'NAME': 'plcount',
+        'USER': 'postgres',
+        'PASSWORD':'admin',
+        'HOST': 'localhost',
+        'PORT': '5432'
+
+
+----------------------------------------------------------------
+
+1º - Criar uma base dados com o nome "plcount"
+
+2º - após criar uma base dados com o nome plcount
+   - com o rato direito em cima da base dados "plcoun", selecionar opção "Restore"
+ 
+3º - nas Reticências, localizar e selecionar o ficherio "plcount" do github
+
+IMPORTANTE!
+Fazer "Refresh" caso queira ver os dados atualizados 
+
+
+|------------------------|
+|  CopyRights PLCOUNT ®  |
+|------------------------|
